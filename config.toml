@@ -1,0 +1,10 @@
+baseURL = "http://linuxboot.org/"
+languageCode = "en-us"
+title = "LinuxBoot"
+theme = "beautifulhugo"
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+pygmentsUseClassic = true
+[params]
+    useChroma = true
+		commit = "https://github.com/linuxboot/linuxboot.org/tree/"
