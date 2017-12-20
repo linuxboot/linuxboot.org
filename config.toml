@@ -1,10 +1,29 @@
-baseURL = "http://linuxboot.org/"
+baseURL = "http://localhost:1313/"
 languageCode = "en-us"
 title = "LinuxBoot"
 theme = "beautifulhugo"
+metaDataFormat = "yaml"
 pygmentsCodeFences = true
 pygmentsUseClasses = true
 pygmentsUseClassic = true
-[params]
-    useChroma = true
-		commit = "https://github.com/linuxboot/linuxboot.org/tree/"
+
+[Params]
+  useChroma = true
+	subtitle = "Build a beautiful and simple website in minutes"
+	logo = "images/logo.png"
+	favicon = "images/favicon.ico"
+	dateFormat = "January 2, 2006"
+	commit = false
+	rss = false
+	comments = true
+
+[Author]
+  name = "The LinuxBoot project"
+  website = "www.linuxboot.org"
+  email = "contact@linuxboot.org"
+  github = "linuxboot"
+
+[[menu.main]]
+	name = "About"
+	url = "page/about/"
+	weight = 1
