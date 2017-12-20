@@ -9,7 +9,7 @@ pygmentsUseClassic = true
 
 [Params]
   useChroma = true
-	subtitle = ""
+	subtitle = "Let Linux do it"
 	logo = "images/logo.png"
 	favicon = "images/favicon.ico"
 	dateFormat = "January 2, 2006"
