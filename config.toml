@@ -9,7 +9,7 @@ pygmentsUseClassic = true
 
 [Params]
   useChroma = true
-	subtitle = "Build a beautiful and simple website in minutes"
+	subtitle = ""
 	logo = "images/logo.png"
 	favicon = "images/favicon.ico"
 	dateFormat = "January 2, 2006"
@@ -18,10 +18,10 @@ pygmentsUseClassic = true
 	comments = true
 
 [Author]
-  name = "The LinuxBoot project"
-  website = "www.linuxboot.org"
-  email = "contact@linuxboot.org"
-  github = "linuxboot"
+	name = "The LinuxBoot project"
+	website = "www.linuxboot.org"
+	email = "linuxboot@googlegroups.com"
+	github = "linuxboot"
 
 [[menu.main]]
 	name = "About"
