@@ -28,6 +28,8 @@ controller initialization and CPU interconnect setup, but all of the
 vendor device drivers are removed.
 
 
-???
+More info?
 ===
-Yes.
+* [Heads, the slightly more secure firmware](http://osresearch.net/)
+* [NERF branch of Heads for building LinuxBoot ROMs](https://github.com/osresearch/heads/branch/nerf)
+* [Installation instructions for the Dell R630](https://trmm.net/NERF)
