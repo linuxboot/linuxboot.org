@@ -31,5 +31,5 @@ vendor device drivers are removed.
 More info?
 ===
 * [Heads, the slightly more secure firmware](http://osresearch.net/)
-* [NERF branch of Heads for building LinuxBoot ROMs](https://github.com/osresearch/heads/branch/nerf)
+* [NERF branch of Heads for building LinuxBoot ROMs](https://github.com/osresearch/heads/tree/nerf)
 * [Installation instructions for the Dell R630](https://trmm.net/NERF)
