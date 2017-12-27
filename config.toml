@@ -1,4 +1,4 @@
-baseURL = "https://linuxboot.org/"
+baseURL = "http://localhost/"
 languageCode = "en-us"
 title = "LinuxBoot"
 theme = "beautifulhugo"
@@ -24,6 +24,6 @@ pygmentsUseClassic = true
 	github = "linuxboot"
 
 [[menu.main]]
-	name = "About"
-	url = "page/about/"
+	name = "FAQ"
+	url = "page/faq/"
 	weight = 1
