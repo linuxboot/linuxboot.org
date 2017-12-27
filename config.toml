@@ -1,4 +1,4 @@
-baseURL = "http://localhost/"
+baseURL = "https://linuxboot.org/"
 languageCode = "en-us"
 title = "LinuxBoot"
 theme = "beautifulhugo"
