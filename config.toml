@@ -16,6 +16,7 @@ pygmentsUseClassic = true
 	commit = false
 	rss = false
 	comments = true
+	readingTime = true
 
 [Author]
 	name = "The LinuxBoot project"
@@ -26,4 +27,9 @@ pygmentsUseClassic = true
 [[menu.main]]
 	name = "FAQ"
 	url = "page/faq/"
+	weight = 2
+
+[[menu.main]]
+	name = "Technical Charter"
+	url = "docs/Technical_Charter_01_25_18.pdf"
 	weight = 1
