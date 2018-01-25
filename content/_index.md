@@ -30,7 +30,8 @@ functionality like the UEFI DXE phase with a Linux kernel and runtime.
 
 ### More info?
 
-*   [Heads, the slightly more secure firmware](http://osresearch.net/)
-*   [NERF branch of Heads for building LinuxBoot
-    ROMs](https://github.com/osresearch/heads/tree/nerf)
-*   [Installation instructions for the Dell R630](https://trmm.net/NERF)
+* [Trammell Hudson's LinuxBoot talk at 34c3](https://trmm.net/LinuxBoot_34c3)
+* Ron Minnich's talk "Replace your exploit-ridden firmware with a Linux kernel": [video](https://www.youtube.com/watch?v=iffTJ1vPCSo) / [slides](https://schd.ws/hosted_files/osseu17/84/Replace%20UEFI%20with%20Linux.pdf)
+* [Heads, the slightly more secure firmware](http://osresearch.net/)
+* [NERF branch of Heads for building LinuxBoot ROMs](https://github.com/osresearch/heads/tree/nerf)
+* [Installation instructions for the Dell R630](https://trmm.net/NERF)
