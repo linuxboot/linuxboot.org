@@ -23,3 +23,9 @@ Graphics init and PCI Device Tree enumeration are already part of the linux
 kernel. System Management Mode can be integrated as
 [well](https://www.youtube.com/watch?v=6GEaw4msq6g). ACPI table generation is
 currently not supported and should be done by the firmware instead.
+
+### NERF, LinuxBoot, HEADS? What's what?
+
+ * *LinuxBoot* is the project that replaces specific firmware functionality with a Linux kernel. LinuxBoot is agnostic to what initramfs is used with the kernel.
+ * *NERF* is LinuxBoot with [https://github.com/u-root/u-root](u-root) as the initramfs. u-root contains boot policy tools in Go (e.g. PXE booting, booting via GRUB config) among standard busybox like utilities rewritten in Go.
+ * *HEADS* is a secure runtime that can be used as the initramfs for LinuxBoot. Take a look at the [https://github.com/osresearch/heads/tree/nerf](NERF branch of HEADS). See (http://osresearch.net/)[osresearch.net] for more documentation on HEADS.
