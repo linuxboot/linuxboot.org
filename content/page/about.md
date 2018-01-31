@@ -17,9 +17,10 @@ charter](../../docs/Technical_Charter_01_25_18.pdf).
 * Facebook
 * Horizon Computing
 * Two Sigma
+* 9elements
 
 ### Technical Steering Committee
 
 * Ron Minnich (Google)
 * Jean-Marie Verdun (Horizon Computing)
-* Philipp Deppenwiese
+* Philipp Deppenwiese (9elements)
