@@ -20,7 +20,7 @@ pygmentsUseClassic = true
 
 [Author]
 	name = "The LinuxBoot project"
-	website = "www.linuxboot.org"
+	website = "https://www.linuxboot.org"
 	email = "linuxboot@googlegroups.com"
 	github = "linuxboot"
 
