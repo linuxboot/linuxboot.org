@@ -13,11 +13,11 @@ charter](../../docs/Technical_Charter_01_25_18.pdf).
 
 ### Organizations Involved
 
-* Google
-* Facebook
-* Horizon Computing
-* Two Sigma
-* 9elements
+* [Google](www.google.com)
+* [Facebook](www.facebook.com)
+* [Horizon Computing](www.horizon-computing.com)
+* [Two Sigma](www.twosigma.com)
+* [9elements](www.9elements.com)
 
 ### Technical Steering Committee
 
