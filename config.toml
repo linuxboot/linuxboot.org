@@ -30,6 +30,6 @@ pygmentsUseClassic = true
 	weight = 2
 
 [[menu.main]]
-	name = "Technical Charter"
-	url = "docs/Technical_Charter_01_25_18.pdf"
+	name = "About Us"
+	url = "page/about/"
 	weight = 1

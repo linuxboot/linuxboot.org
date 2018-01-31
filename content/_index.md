@@ -24,9 +24,10 @@ functionality like the UEFI DXE phase with a Linux kernel and runtime.
 
 ### Contact?
 
-*   [Mailing list](https://groups.google.com/forum/#!forum/linuxboot)
-*   [Slack](https://u-root.slack.com/messages/linuxboot) (Join
-    [here](http://slack.u-root.com))
+* [Mailing list](https://groups.google.com/forum/#!forum/linuxboot)
+* [Slack](https://u-root.slack.com/messages/linuxboot) (Join
+  [here](http://slack.u-root.com))
+* [Twitter](https://twitter.com/LinuxBootOrg)
 
 ### More info?
 
