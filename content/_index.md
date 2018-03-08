@@ -29,12 +29,24 @@ functionality like the UEFI DXE phase with a Linux kernel and runtime.
   [here](http://slack.u-root.com))
 * [Twitter](https://twitter.com/LinuxBootOrg)
 
-### More info?
+### Getting started:
 
-* [Trammell Hudson's LinuxBoot talk at 34c3](https://trmm.net/LinuxBoot_34c3)
-* Ron Minnich's talk "Replace your exploit-ridden firmware with a Linux kernel": [video](https://www.youtube.com/watch?v=iffTJ1vPCSo) / [slides](https://schd.ws/hosted_files/osseu17/84/Replace%20UEFI%20with%20Linux.pdf)
-* [Heads, the slightly more secure firmware](http://osresearch.net/)
-* [NERF branch of Heads for building LinuxBoot ROMs](https://github.com/osresearch/heads/tree/nerf)
+```
+git clone https://github.com/osresearch/heads
+make -C heads BOARD=qemu-linuxboot all run
+```
+
+### In the news:
+
+* [LWN.net: LinuxBoot: Linux as firmware](https://lwn.net/SubscriberLink/748586/b665913279cdbc1c/) (2018-03-08)
+* [Linux Journal: FOSS Project Spotlight: LinuxBoot](https://lwn.net/SubscriberLink/748586/b665913279cdbc1c/) (2018-02-15)
+* [Linux Foundation: System Statup gets a Boost with new LinuxBoot project](https://www.linuxfoundation.org/blog/system-startup-gets-a-boost-with-new-linuxboot-project/) (2018-01-25)
+
+### More info:
+* [Trammell Hudson's LinuxBoot talk at 34c3](https://trmm.net/LinuxBoot_34c3) (2017-12-29)
+* Ron Minnich's talk "Replace your exploit-ridden firmware with a Linux kernel": [video](https://www.youtube.com/watch?v=iffTJ1vPCSo) / [slides](https://schd.ws/hosted_files/osseu17/84/Replace%20UEFI%20with%20Linux.pdf) (2017-10-27)
+* [Heads tree for building LinuxBoot ROMs](https://github.com/osresearch/heads)
+* [Trammell Hudson's Heads talk at 33c3](https://trmm.net/Heads_33c3) (2016-12-27)
 * [Installation instructions for the Dell R630](https://trmm.net/NERF)
 * [Instructions for OCP Winterfell nodes](https://github.com/ggiamarchi/nerf-winterfell)
 * More detailed instructions and build tools are forthcoming for OCP nodes as well as others.
