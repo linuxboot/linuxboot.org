@@ -22,6 +22,22 @@ functionality like the UEFI DXE phase with a Linux kernel and runtime.
     supercomputing systems -- wherever reliability and performance are
     paramount.
 
+### Getting Started
+
+```
+git clone https://github.com/linuxboot/linuxboot
+cd linuxboot
+make \
+	     BOARD=qemu \
+	     KERNEL=../path/to/bzImage \
+	     INITRD=../path/to/initrd.cpio.xz \
+	     config
+make
+```
+
+The kernel must be built with `CONFIG_EFI_BDS`. Follow further instructions on
+our [GitHub](https://github.com/linuxboot/linuxboot).
+
 ### Contact?
 
 * [Mailing list](https://groups.google.com/forum/#!forum/linuxboot)
@@ -29,20 +45,14 @@ functionality like the UEFI DXE phase with a Linux kernel and runtime.
   [here](http://slack.u-root.com))
 * [Twitter](https://twitter.com/LinuxBootOrg)
 
-### Getting started:
+### In The News
 
-```
-git clone https://github.com/osresearch/heads
-make -C heads BOARD=qemu-linuxboot all run
-```
-
-### In the news:
-
-* [LWN.net: LinuxBoot: Linux as firmware](https://lwn.net/SubscriberLink/748586/b665913279cdbc1c/) (2018-03-08)
-* [Linux Journal: FOSS Project Spotlight: LinuxBoot](https://lwn.net/SubscriberLink/748586/b665913279cdbc1c/) (2018-02-15)
+* [LWN.net: LinuxBoot: Linux as firmware](https://lwn.net/Articles/748586/) (2018-03-08)
+* [Linux Journal: FOSS Project Spotlight: LinuxBoot](https://www.linuxjournal.com/content/foss-project-spotlight-linuxboot/) (2018-02-15)
 * [Linux Foundation: System Statup gets a Boost with new LinuxBoot project](https://www.linuxfoundation.org/blog/system-startup-gets-a-boost-with-new-linuxboot-project/) (2018-01-25)
 
-### More info:
+### More Info
+
 * [Trammell Hudson's LinuxBoot talk at 34c3](https://trmm.net/LinuxBoot_34c3) (2017-12-29)
 * Ron Minnich's talk "Replace your exploit-ridden firmware with a Linux kernel": [video](https://www.youtube.com/watch?v=iffTJ1vPCSo) / [slides](https://schd.ws/hosted_files/osseu17/84/Replace%20UEFI%20with%20Linux.pdf) (2017-10-27)
 * [Heads tree for building LinuxBoot ROMs](https://github.com/osresearch/heads)
