@@ -27,7 +27,7 @@ pygmentsUseClassic = true
 [[menu.main]]
 	name = "FAQ"
 	url = "page/faq/"
-	weight = 3
+	weight = 1
 
 [[menu.main]]
 	name = "About Us"
