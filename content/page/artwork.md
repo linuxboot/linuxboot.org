@@ -2,9 +2,8 @@
 
 {{< gallery dir="/images/artwork" />}}
 
-[White SVG Logo](images/artwork/linux_boot_white.svg)
-
-[Black SVG Logo](images/artwork/linux_boot_black.svg)
+-   [White SVG Logo](images/artwork/linux_boot_white.svg)
+-   [Black SVG Logo](images/artwork/linux_boot_black.svg)
 
 # License
 
