@@ -2,8 +2,8 @@
 
 {{< gallery dir="/images/artwork" />}}
 
--   [White SVG Logo](../../images/artwork/linux_logo_black.svg)
--   [Black SVG Logo](../../images/artwork/linux_logo_white.svg)
+-   [White SVG Logo](images/artwork/linux_logo_black.svg)
+-   [Black SVG Logo](images/artwork/linux_logo_white.svg)
 
 # License
 
