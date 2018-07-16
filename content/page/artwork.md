@@ -5,16 +5,20 @@
 -   [White SVG Logo](/images/artwork/linux_logo_black.svg)
 -   [Black SVG Logo](/images/artwork/linux_logo_white.svg)
 
-# License
+## Author
+
+The logo creator is [Susanne Nähler](https://dribbble.com/LittleSue) from [9elements](https://9elements.com/).
+
+## License
 
 Every artwork has to be used under the conditions of the Creative Commons Attribution-NoDerivatives 4.0 International license.
 There is a short version which explains the [license](https://creativecommons.org/licenses/by-nd/4.0/) easily.
 
-## Full License
+### Full License
 
 Creative Commons Corporation (“Creative Commons”) is not a law firm and does not provide legal services or legal advice. Distribution of Creative Commons public licenses does not create a lawyer-client or other relationship. Creative Commons makes its licenses and related information available on an “as-is” basis. Creative Commons gives no warranties regarding its licenses, any material licensed under their terms and conditions, or any related information. Creative Commons disclaims all liability for damages resulting from their use to the fullest extent possible.
 
-### Using Creative Commons Public Licenses
+#### Using Creative Commons Public Licenses
 
 Creative Commons public licenses provide a standard set of terms and conditions that creators and other rights holders may use to share original works of authorship and other material subject to copyright and certain other rights specified in the public license below. The following considerations are for informational purposes only, are not exhaustive, and do not form part of our licenses.
 
@@ -22,11 +26,11 @@ Creative Commons public licenses provide a standard set of terms and conditions 
 
 -   **Considerations for the public:** By using one of our public licenses, a licensor grants the public permission to use the licensed material under specified terms and conditions. If the licensor’s permission is not necessary for any reason–for example, because of any applicable exception or limitation to copyright–then that use is not regulated by the license. Our licenses grant only permissions under copyright and certain other rights that a licensor has authority to grant. Use of the licensed material may still be restricted for other reasons, including because others have copyright or other rights in the material. A licensor may make special requests, such as asking that all changes be marked or described. Although not required by our licenses, you are encouraged to respect those requests where reasonable. [More considerations for the public](http://wiki.creativecommons.org/Considerations_for_licensors_and_licensees#Considerations_for_licensees).
 
-## Creative Commons Attribution-NoDerivatives 4.0 International Public License
+### Creative Commons Attribution-NoDerivatives 4.0 International Public License
 
 By exercising the Licensed Rights (defined below), You accept and agree to be bound by the terms and conditions of this Creative Commons Attribution-NoDerivatives 4.0 International Public License ("Public License"). To the extent this Public License may be interpreted as a contract, You are granted the Licensed Rights in consideration of Your acceptance of these terms and conditions, and the Licensor grants You such rights in consideration of benefits the Licensor receives from making the Licensed Material available under these terms and conditions.
 
-### Section 1 – Definitions.
+#### Section 1 – Definitions.
 
 a. **Adapted Material** means material subject to Copyright and Similar Rights that is derived from or based upon the Licensed Material and in which the Licensed Material is translated, altered, arranged, transformed, or otherwise modified in a manner requiring permission under the Copyright and Similar Rights held by the Licensor. For purposes of this Public License, where the Licensed Material is a musical work, performance, or sound recording, Adapted Material is always produced where the Licensed Material is synched in timed relation with a moving image.
 
@@ -48,7 +52,7 @@ i. **Sui Generis Database Rights** means rights other than copyright resulting f
 
 j. **You** means the individual or entity exercising the Licensed Rights under this Public License. Your has a corresponding meaning.
 
-### Section 2 – Scope.
+#### Section 2 – Scope.
 
 a. **_License grant._**
 
@@ -80,7 +84,7 @@ b. **_Other rights._**
 
 3.  To the extent possible, the Licensor waives any right to collect royalties from You for the exercise of the Licensed Rights, whether directly or through a collecting society under any voluntary or waivable statutory or compulsory licensing scheme. In all other cases the Licensor expressly reserves any right to collect such royalties.
 
-### Section 3 – License Conditions.
+#### Section 3 – License Conditions.
 
 Your exercise of the Licensed Rights is expressly made subject to the following conditions.
 
@@ -110,7 +114,7 @@ a. **_Attribution._**
 
 3.  If requested by the Licensor, You must remove any of the information required by Section 3(a)(1)(A) to the extent reasonably practicable.
 
-### Section 4 – Sui Generis Database Rights.
+#### Section 4 – Sui Generis Database Rights.
 
 Where the Licensed Rights include Sui Generis Database Rights that apply to Your use of the Licensed Material:
 
@@ -122,7 +126,7 @@ c. You must comply with the conditions in Section 3(a) if You Share all or a sub
 
 For the avoidance of doubt, this Section 4 supplements and does not replace Your obligations under this Public License where the Licensed Rights include other Copyright and Similar Rights.
 
-### Section 5 – Disclaimer of Warranties and Limitation of Liability.
+#### Section 5 – Disclaimer of Warranties and Limitation of Liability.
 
 a. **Unless otherwise separately undertaken by the Licensor, to the extent possible, the Licensor offers the Licensed Material as-is and as-available, and makes no representations or warranties of any kind concerning the Licensed Material, whether express, implied, statutory, or other. This includes, without limitation, warranties of title, merchantability, fitness for a particular purpose, non-infringement, absence of latent or other defects, accuracy, or the presence or absence of errors, whether or not known or discoverable. Where disclaimers of warranties are not allowed in full or in part, this disclaimer may not apply to You.**
 
@@ -146,13 +150,13 @@ c. For the avoidance of doubt, the Licensor may also offer the Licensed Material
 
 d. Sections 1, 5, 6, 7, and 8 survive termination of this Public License.
 
-### Section 7 – Other Terms and Conditions.
+#### Section 7 – Other Terms and Conditions.
 
 a. The Licensor shall not be bound by any additional or different terms or conditions communicated by You unless expressly agreed.
 
 b. Any arrangements, understandings, or agreements regarding the Licensed Material not stated herein are separate from and independent of the terms and conditions of this Public License.
 
-### Section 8 – Interpretation.
+#### Section 8 – Interpretation.
 
 a. For the avoidance of doubt, this Public License does not, and shall not be interpreted to, reduce, limit, restrict, or impose conditions on any use of the Licensed Material that could lawfully be made without permission under this Public License.
 
