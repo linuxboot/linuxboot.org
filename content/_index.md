@@ -1,6 +1,6 @@
 # Linux as Firmware
 
-**Tired of reinventing the wheel by implementing drivers for firmware again and again.**</br>
+**Tired of reinventing the wheel by implementing drivers for firmware again and again?**</br>
 **Not with LinuxBoot!**
 
 ![](images/linuxboot_info.png)
