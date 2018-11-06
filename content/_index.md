@@ -56,6 +56,10 @@ our [GitHub](https://github.com/linuxboot/linuxboot).
 * [Trammell Hudson's LinuxBoot talk at 34c3](https://trmm.net/LinuxBoot_34c3) (2017-12-29)
 * Ron Minnich's talk "Replace your exploit-ridden firmware with a Linux kernel": [video](https://www.youtube.com/watch?v=iffTJ1vPCSo) / [slides](https://schd.ws/hosted_files/osseu17/84/Replace%20UEFI%20with%20Linux.pdf) (2017-10-27)
 * [Trammell Hudson's Heads talk at 33c3](https://trmm.net/Heads_33c3) (2016-12-27)
+* [Open Source Firmware @ Facebook, by David Hendricks and Andrea Barberio](https://osfc.io/talks/open-source-firmware-facebook) at [OSFC Open Source Firmware Conference](https://osfc.io) ([slides](https://insomniac.slackware.it/static/2018_osfc_linuxboot_at_facebook.pdf)) ([video](https://www.youtube.com/watch?v=eKVSBESoKUc)) (2018-09-1)
+* [Turning Linux Engineers into Firmware Engineers, by David Hendricks and Andrea Barberio](https://www.opencompute.org/summit/regional-summit-2018/schedule) at [OCP Regional Summit](https://www.opencompute.org/summit/regional-summit-2018) ([slides](https://insomniac.slackware.it/static/2018_ocp_regional_summit_linuxboot_at_facebook.pdf)) ([video](https://www.youtube.com/watch?v=i84df1z6mdI)) (2018-10-02)
+* [Make Your System Firmware Faster, More Flexible and Reliable with LinuxBoot, by David Hendricks and Andrea Barberio](https://www.usenix.org/conference/lisa18/presentation/barberio) at [LISA 2018](https://www.usenix.org/conference/lisa18) ([slides](https://insomniac.slackware.it/static/2018_lisa_linuxboot_at_facebook.pdf )) (2018-10-31)
+
 
 ### Repos & Instructions
 
