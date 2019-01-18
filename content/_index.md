@@ -38,6 +38,12 @@ make
 The kernel must be built with `CONFIG_EFI_BDS`. Follow further instructions on
 our [GitHub](https://github.com/linuxboot/linuxboot).
 
+### Fortnightly meeting
+
+We meet every two weeks to discuss about the latest news, upcoming talks and events, and so on. The meeting is open and everyone is welcome! You can add the calendar below to your own calendar.
+
+<iframe src="https://calendar.google.com/calendar/embed?src=kjg9m2lkjad37pvnms0paaf2f0%40group.calendar.google.com&ctz=Europe%2FDublin" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+
 ### Contact?
 
 * [Mailing list](https://groups.google.com/forum/#!forum/linuxboot)
