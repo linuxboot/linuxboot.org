@@ -56,6 +56,7 @@ We meet every two weeks to discuss about the latest news, upcoming talks and eve
 * [LWN.net: LinuxBoot: Linux as firmware](https://lwn.net/Articles/748586/) (2018-03-08)
 * [Linux Journal: FOSS Project Spotlight: LinuxBoot](https://www.linuxjournal.com/content/foss-project-spotlight-linuxboot/) (2018-02-15)
 * [Linux Foundation: System Statup gets a Boost with new LinuxBoot project](https://www.linuxfoundation.org/blog/system-startup-gets-a-boost-with-new-linuxboot-project/) (2018-01-25)
+* [Facebook's LinuxBoot-powered F-16 high-performance fabric network](https://code.fb.com/data-center-engineering/f16-minipack/) [2019-03-14]
 
 ### Talks
 
