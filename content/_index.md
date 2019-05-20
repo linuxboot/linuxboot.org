@@ -38,6 +38,15 @@ make
 The kernel must be built with `CONFIG_EFI_BDS`. Follow further instructions on
 our [GitHub](https://github.com/linuxboot/linuxboot).
 
+
+### LinuxBoot Book
+
+The official documentation for LinuxBoot is the [LinuxBoot Book](https://github.com/linuxboot/book),
+where you can find information on how LinuxBoot works, how to build the various
+flavours (e.g. coreboot/LinuxBoot or UEFI PEI/LinuxBoot), the
+[u-root](https://github.com/u-root/u-root) ramfs builder, etc.
+
+
 ### Fortnightly meeting
 
 We meet every two weeks to discuss about the latest news, upcoming talks and events, and so on. The meeting is open and everyone is welcome! You can add the calendar below to your own calendar.
