@@ -46,6 +46,11 @@ Compute Platform
 [Winterfell](http://www.horizon-computing.com/?project=winterfell) nodes with
 LinuxBoot/NERF in Q2 2018.
 
+[Facebook](https://engineering.fb.com/data-center-engineering/f16-minipack/) and
+[Arista Networks](https://www.arista.com/en/company/news/press-release/6785-pr-20190314)
+have implemented LinuxBoot with coreboot in a joint effort for the
+[Arista 7368X4 network switch](https://www.arista.com/en/products/arista-7368x4-series-datasheet-quick-look).
+
 The [Equus R1560](https://www.equuscs.com/servers/whitebox-open/r1560/)
 server board
 [supports LinuxBoot](https://www.equuscs.com/introducing-the-whitebox-open-r1560-servers/). 
