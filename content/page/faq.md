@@ -31,8 +31,8 @@ Just in case the front page did not convince you...
     Go.
 
 *   *HEADS* is a secure runtime that can be used as the initramfs for LinuxBoot.
-    Take a look at the [LinuxBoot branch of
-    HEADS](https://github.com/osresearch/heads/tree/nerf). See
+    Take a look at the [repository on
+    GitHub](https://github.com/osresearch/heads/). See
     [osresearch.net](http://osresearch.net/) for more documentation on HEADS.
 
 Initially, all three of these projects were called NERF. Because this would have
