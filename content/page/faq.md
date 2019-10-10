@@ -46,6 +46,10 @@ Compute Platform
 [Winterfell](http://www.horizon-computing.com/?project=winterfell) nodes with
 LinuxBoot/NERF in Q2 2018.
 
+The [Equus R1560](https://www.equuscs.com/servers/whitebox-open/r1560/)
+server board
+[supports LinuxBoot](https://www.equuscs.com/introducing-the-whitebox-open-r1560-servers/). 
+
 ### Do I Need A coreboot-compatible Motherboard?
 
 No, LinuxBoot is compatible with UEFI as well as coreboot. You can use
