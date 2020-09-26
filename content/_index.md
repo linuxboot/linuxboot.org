@@ -49,7 +49,11 @@ flavours (e.g. coreboot/LinuxBoot or UEFI PEI/LinuxBoot), the
 
 ### Fortnightly meeting
 
-We meet every two weeks to discuss about the latest news, upcoming talks and events, and so on. The meeting is open and everyone is welcome! You can add the calendar below to your own calendar.
+We meet every two weeks to discuss about the latest news, upcoming talks and events, and so on. The meeting is open and everyone is welcome!
+
+Meeting notes: https://docs.google.com/document/d/1ODqACyXvtRhTi8YHxg8Z386eQRuEEXu7YcQWQStCrvA/edit#heading=h.kogal719mll2
+
+The LinuxBoot calendar is displayed below. Add it to Google calendar using the "+" button, or import it to your favorite calendar app using iCalendar: https://calendar.google.com/calendar/ical/b7msajvido3i4vhbt6d98rhcso%40group.calendar.google.com/public/basic.ics
 
 <iframe src="https://calendar.google.com/calendar/embed?src=b7msajvido3i4vhbt6d98rhcso%40group.calendar.google.com" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 
