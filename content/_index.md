@@ -60,8 +60,8 @@ The LinuxBoot calendar is displayed below. Add it to Google calendar using the "
 ### Contact?
 
 * [Mailing list](https://groups.google.com/forum/#!forum/linuxboot)
-* [Slack](https://u-root.slack.com/messages/linuxboot) (Join
-  [here](http://slack.u-root.com))
+* [Slack](https://osfw.slack.com/messages/linuxboot) (Join
+  [here](https://slack.osfw.dev))
 * [Twitter](https://twitter.com/LinuxBootOrg)
 
 ### In The News
