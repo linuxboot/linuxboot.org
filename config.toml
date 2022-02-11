@@ -38,3 +38,8 @@ pygmentsUseClassic = true
 	name = "Artwork"
 	url = "page/artwork/"
 	weight = 3
+
+[[menu.main]]
+	name = "Comparison"
+	url = "page/comparison/"
+	weight = 3
