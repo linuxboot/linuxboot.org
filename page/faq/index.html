@@ -1,0 +1,254 @@
+<!doctype html><html lang=en>
+<head>
+<meta charset=utf-8>
+<meta http-equiv=x-ua-compatible content="IE=edge">
+<meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1">
+<title>LinuxBoot</title>
+<meta property="og:title" content="LinuxBoot">
+<meta name=twitter:title content="LinuxBoot">
+<meta name=description content="Additional Reasons for LinuxBoot Just in case the front page did not convince you&mldr;
+ You can use any filesystem that Linux supports, not just FAT. You can implement boot policies using normal Linux applications, e.g. shell scripts or binaries, rather than manipulating opaque NVRAM variables. You can run Linux applications straight from the ROM. You can avoid legacy partitions entirely and use LVM for flexible volume management. You can build it yourself and verify that the reproducible build matches what others have built to ensure that the firmware is clean.">
+<meta property="og:description" content="Additional Reasons for LinuxBoot Just in case the front page did not convince you&mldr;
+ You can use any filesystem that Linux supports, not just FAT. You can implement boot policies using normal Linux applications, e.g. shell scripts or binaries, rather than manipulating opaque NVRAM variables. You can run Linux applications straight from the ROM. You can avoid legacy partitions entirely and use LVM for flexible volume management. You can build it yourself and verify that the reproducible build matches what others have built to ensure that the firmware is clean.">
+<meta name=twitter:description content="Additional Reasons for LinuxBoot Just in case the front page did not convince you&mldr;
+ You can use any filesystem that Linux supports, not just FAT. You can implement boot policies using normal …">
+<meta name=author content="The LinuxBoot project">
+<link href=http://localhost/images/favicon.ico rel=icon type=image/x-icon>
+<meta property="og:image" content="http://localhost/images/logo.png">
+<meta name=twitter:image content="http://localhost/images/logo.png">
+<meta name=twitter:card content="summary">
+<meta property="og:url" content="http://localhost/page/faq/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="LinuxBoot">
+<meta name=generator content="Hugo 0.92.2">
+<link rel=canonical href=http://localhost/page/faq/>
+<link rel=alternate href type=application/rss+xml title=LinuxBoot>
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css integrity=sha384-wITovz90syo1dJWVh32uuETPVEtGigN07tkttEqPv+uR2SE/mbQcG7ATL28aI9H0 crossorigin=anonymous>
+<link rel=stylesheet href=https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css>
+<link rel=stylesheet href=https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css integrity=sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u crossorigin=anonymous>
+<link rel=stylesheet href=http://localhost/css/main.css><link rel=stylesheet href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
+<link rel=stylesheet href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800"><link rel=stylesheet href=http://localhost/css/syntax.css><style>.navbar-custom .avatar-container .avatar-img-border{border-radius:0}.navbar-custom .avatar-container .avatar-img{border-radius:0}</style>
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css integrity="sha256-sCl5PUOGMLfFYctzDW3MtRib0ctyUvI9Qsmq2wXOeBY=" crossorigin=anonymous>
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css integrity="sha256-BFeI1V+Vh1Rk37wswuOYn5lsTcaU96hGaI7OUVCLjPc=" crossorigin=anonymous>
+<div class=pswp tabindex=-1 role=dialog aria-hidden=true>
+<div class=pswp__bg></div>
+<div class=pswp__scroll-wrap>
+<div class=pswp__container>
+<div class=pswp__item></div>
+<div class=pswp__item></div>
+<div class=pswp__item></div>
+</div>
+<div class="pswp__ui pswp__ui--hidden">
+<div class=pswp__top-bar>
+<div class=pswp__counter></div>
+<button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+<button class="pswp__button pswp__button--share" title=Share></button>
+<button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+<button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+<div class=pswp__preloader>
+<div class=pswp__preloader__icn>
+<div class=pswp__preloader__cut>
+<div class=pswp__preloader__donut></div>
+</div>
+</div>
+</div>
+</div>
+<div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+<div class=pswp__share-tooltip></div>
+</div>
+<button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+</button>
+<button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+</button>
+<div class=pswp__caption>
+<div class=pswp__caption__center></div>
+</div>
+</div>
+</div>
+</div>
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+<div class=container-fluid>
+<div class=navbar-header>
+<button type=button class=navbar-toggle data-toggle=collapse data-target=#main-navbar>
+<span class=sr-only>Toggle navigation</span>
+<span class=icon-bar></span>
+<span class=icon-bar></span>
+<span class=icon-bar></span>
+</button>
+<a class=navbar-brand href=http://localhost/>LinuxBoot</a>
+</div>
+<div class="collapse navbar-collapse" id=main-navbar>
+<ul class="nav navbar-nav navbar-right">
+<li>
+<a title=FAQ href=/page/faq/>FAQ</a>
+</li>
+<li>
+<a title="About Us" href=/page/about/>About Us</a>
+</li>
+<li>
+<a title=Artwork href=/page/artwork/>Artwork</a>
+</li>
+</ul>
+</div>
+<div class=avatar-container>
+<div class=avatar-img-border>
+<a title=LinuxBoot href=http://localhost/>
+<img class=avatar-img src=http://localhost/images/logo.png alt=LinuxBoot>
+</a>
+</div>
+</div>
+</div>
+</nav>
+<div class=intro-header></div>
+<div class=container role=main>
+<div class=row>
+<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+<article role=main class=blog-post>
+<p><img src=images/s2600-flash.jpg alt="Installing LinuxBoot on an Intel S2600 mainboard"></p>
+<h3 id=additional-reasons-for-linuxboot>Additional Reasons for LinuxBoot</h3>
+<p>Just in case the front page did not convince you&mldr;</p>
+<ul>
+<li>You can use any filesystem that Linux supports, not just FAT.</li>
+<li>You can implement boot policies using normal Linux applications, e.g.
+shell scripts or binaries, rather than manipulating opaque NVRAM variables.</li>
+<li>You can run Linux applications straight from the ROM.</li>
+<li>You can avoid legacy partitions entirely and use LVM for flexible volume
+management.</li>
+<li>You can build it yourself and verify that the reproducible build matches what
+others have built to ensure that the firmware is clean.</li>
+<li>You can have the firmware attest to you via TOTP that it hasn&rsquo;t been changed.</li>
+<li>You can have a fully encrypted disk, with secrets sealed in the TPM and only
+unsealed if the firmware is unmodified.</li>
+<li>You can include device drivers for things that UEFI doesn&rsquo;t support.</li>
+<li>You can use external hardware tokens like a Yubikey to sign the OS install
+and have the firmware validate the GPG signature.</li>
+</ul>
+<h3 id=linuxboot-nerf-heads-whats-what>LinuxBoot, NERF, HEADS? What&rsquo;s What?</h3>
+<ul>
+<li>
+<p><em>LinuxBoot</em> is the project that replaces specific firmware functionality
+with a Linux kernel. LinuxBoot is agnostic to what initramfs is used with
+the kernel.</p>
+</li>
+<li>
+<p><em>NERF</em> is LinuxBoot with <a href=https://github.com/u-root/u-root>u-root</a> as the
+initramfs. u-root contains boot policy tools in Go (e.g. PXE booting,
+booting via GRUB config) among standard busybox-like utilities rewritten in
+Go.</p>
+</li>
+<li>
+<p><em>HEADS</em> is a secure runtime that can be used as the initramfs for LinuxBoot.
+Take a look at the <a href=https://github.com/osresearch/heads/>repository on
+GitHub</a>. See
+<a href=http://osresearch.net/>osresearch.net</a> for more documentation on HEADS.</p>
+</li>
+</ul>
+<p>Initially, all three of these projects were called NERF. Because this would have
+only become more confusing, and because we do not want to be prescriptive of the
+initramfs, we named the Linux kernel in firmware <em>LinuxBoot</em>.</p>
+<h3 id=will-anyone-ever-ship-this>Will Anyone Ever Ship This?</h3>
+<p><a href=http://www.horizon-computing.com>Horizon Computing</a> plans to ship Open
+Compute Platform
+<a href="http://www.horizon-computing.com/?project=winterfell">Winterfell</a> nodes with
+LinuxBoot/NERF in Q2 2018.</p>
+<p><a href=https://engineering.fb.com/data-center-engineering/f16-minipack/>Facebook</a> and
+<a href=https://www.arista.com/en/company/news/press-release/6785-pr-20190314>Arista Networks</a>
+have implemented LinuxBoot with coreboot in a joint effort for the
+<a href=https://www.arista.com/en/products/arista-7368x4-series-datasheet-quick-look>Arista 7368X4 network switch</a>.</p>
+<p>The <a href=https://www.equuscs.com/servers/whitebox-open/r1560/>Equus R1560</a>
+server board
+<a href=https://www.equuscs.com/introducing-the-whitebox-open-r1560-servers/>supports LinuxBoot</a>.</p>
+<h3 id=do-i-need-a-coreboot-compatible-motherboard>Do I Need A coreboot-compatible Motherboard?</h3>
+<p>No, LinuxBoot is compatible with UEFI as well as coreboot. You can use
+LinuxBoot as a UEFI DXE or as a <a href=https://review.coreboot.org/#/c/coreboot/+/23071/>coreboot
+payload</a>. See Ron Minnich&rsquo;s
+talk &ldquo;Replace your exploit-ridden firmware with a Linux kernel&rdquo;:
+<a href="https://www.youtube.com/watch?v=iffTJ1vPCSo">video</a> /
+<a href=https://schd.ws/hosted_files/osseu17/84/Replace%20UEFI%20with%20Linux.pdf>slides</a></p>
+<h3 id=what-does-booting-look-like>What Does Booting Look Like?</h3>
+<p>Our generally recommended approach is to use the Linux kernel in ROM to locate
+the actual kernel you want to boot, verify it is signed as you expect, and boot
+that using kexec. This could be done by implementing PXE booting in userspace,
+or finding a kernel on a mounted disk, or whatever way you desire. You may want
+to check out NERF or HEADS for tools to do this (see section below).</p>
+<p>You could boot straight into the Linux kernel in ROM and use that; however this
+is likely undesired due to space constraints. There may be a different set of
+requirements for the kernel in ROM than for the kernel you want to run in
+production: the kernel in ROM needs to fit in ROM and should contain the
+smallest attack surface possible, so it should be compiled with the lowest
+common denominator of kernel features you need. That means it likely lacks
+features you may want to use in a Linux kernel.</p>
+<h3 id=technical-details>Technical Details</h3>
+<h4 id=platform-init-and-memory-training>Platform init and memory training</h4>
+<p>As part of the hardware setup the so called &ldquo;SoC&rdquo; init is required. It consists
+of the platform bring-up and memory training. If the RAM training succeeds the
+Linux kernel can be loaded.</p>
+<h4 id=x86-bootblock-magic>x86 bootblock magic</h4>
+<p>Under x86 architecture there is no cache as RAM support from the beginning of
+the platform init. Therefore, a register must be used as memory in order to
+initialize CAR.</p>
+<h4 id=cache-as-ram>Cache As RAM</h4>
+<p>In order to do RAM <a href="https://www.youtube.com/watch?v=h-Lkkg03Erk">training</a> some
+sort of memory is needed. That is why the CPU caches are utilized.</p>
+<h4 id=what-about-smm-acpi-pci-dt-and-gfx-init>What about SMM, ACPI, PCI DT and GFX init?</h4>
+<p>Graphics init and PCI Device Tree enumeration are already part of the linux
+kernel. System Management Mode can be integrated as
+<a href="https://www.youtube.com/watch?v=6GEaw4msq6g">well</a>. ACPI table generation is
+currently not supported and should be done by the firmware instead.</p>
+</article>
+<ul class="pager blog-pager">
+<li class=next>
+<a href=http://localhost/page/artwork/ data-toggle=tooltip data-placement=top title>Next Post &rarr;</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<footer>
+<div class=container>
+<div class=row>
+<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+<ul class="list-inline text-center footer-links">
+<li>
+<a href=mailto:linuxboot@googlegroups.com title="Email me">
+<span class="fa-stack fa-lg">
+<i class="fa fa-circle fa-stack-2x"></i>
+<i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+</span>
+</a>
+</li>
+<li>
+<a href=https://github.com/linuxboot title=GitHub>
+<span class="fa-stack fa-lg">
+<i class="fa fa-circle fa-stack-2x"></i>
+<i class="fa fa-github fa-stack-1x fa-inverse"></i>
+</span>
+</a>
+</li>
+</ul>
+<p class="credits copyright text-muted">
+<a href=https://www.linuxboot.org>The LinuxBoot project</a>
+&nbsp;&bull;&nbsp;
+0001
+&nbsp;&bull;&nbsp;
+<a href=http://localhost/>LinuxBoot</a>
+</p>
+<p class="credits theme-by text-muted">
+<a href=http://gohugo.io>Hugo v0.92.2</a> powered &nbsp;&bull;&nbsp; Theme by <a href=http://deanattali.com/beautiful-jekyll/>Beautiful Jekyll</a> adapted to <a href=https://github.com/halogenica/beautifulhugo>Beautiful Hugo</a>
+</p>
+</div>
+</div>
+</div>
+</footer>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.js integrity=sha384-/y1Nn9+QQAipbNQWU65krzJralCnuOasHncUFXGkdwntGeSvQicrYkiUBwsgUqc1 crossorigin=anonymous></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/contrib/auto-render.min.js integrity=sha384-dq1/gEHSxPZQ7DdrM82ID4YVol9BYyU7GbWlIwnwyPzotpoc57wDw/guX8EaYGPx crossorigin=anonymous></script>
+<script src=https://code.jquery.com/jquery-1.12.4.min.js integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin=anonymous></script>
+<script src=https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js integrity=sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa crossorigin=anonymous></script>
+<script src=http://localhost/js/main.js></script><script>renderMathInElement(document.body)</script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js integrity="sha256-UplRCs9v4KXVJvVY+p+RSo5Q4ilAUXh7kpjyIP5odyc=" crossorigin=anonymous></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js integrity="sha256-PWHOlUzc96pMc8ThwRIXPn8yH4NOLu42RQ0b9SpnpFk=" crossorigin=anonymous></script>
+<script src=http://localhost/js/load-photoswipe.js></script>
+</body>
+</html>

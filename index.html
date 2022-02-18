@@ -1,0 +1,248 @@
+<!doctype html><html lang=en>
+<head>
+<meta charset=utf-8>
+<meta http-equiv=x-ua-compatible content="IE=edge">
+<meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1">
+<title>LinuxBoot</title>
+<meta property="og:title" content="LinuxBoot">
+<meta name=twitter:title content="LinuxBoot">
+<meta name=description content="Linux as Firmware Tired of reinventing the wheel by implementing drivers for firmware again and again?Not with LinuxBoot!
+What? LinuxBoot is a firmware for modern servers that replaces specific firmware functionality like the UEFI DXE phase with a Linux kernel and runtime.
+Why?  Improves boot reliability by replacing lightly-tested firmware drivers with hardened Linux drivers. Improves boot time by removing unnecessary code. Typically makes boot 20 times faster. Allows customization of the initrd runtime to support site-specific needs (both device drivers as well as custom executables).">
+<meta property="og:description" content="Linux as Firmware Tired of reinventing the wheel by implementing drivers for firmware again and again?Not with LinuxBoot!
+What? LinuxBoot is a firmware for modern servers that replaces specific firmware functionality like the UEFI DXE phase with a Linux kernel and runtime.
+Why?  Improves boot reliability by replacing lightly-tested firmware drivers with hardened Linux drivers. Improves boot time by removing unnecessary code. Typically makes boot 20 times faster. Allows customization of the initrd runtime to support site-specific needs (both device drivers as well as custom executables).">
+<meta name=twitter:description content="Linux as Firmware Tired of reinventing the wheel by implementing drivers for firmware again and again?Not with LinuxBoot!
+What? LinuxBoot is a firmware for modern servers that replaces specific …">
+<meta name=author content="The LinuxBoot project">
+<link href=http://localhost/images/favicon.ico rel=icon type=image/x-icon>
+<meta property="og:image" content="http://localhost/images/logo.png">
+<meta name=twitter:image content="http://localhost/images/logo.png">
+<meta name=twitter:card content="summary">
+<meta property="og:url" content="http://localhost/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="LinuxBoot">
+<meta name=generator content="Hugo 0.92.2">
+<link rel=canonical href=http://localhost/>
+<link rel=alternate href=http://localhost/index.xml type=application/rss+xml title=LinuxBoot>
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css integrity=sha384-wITovz90syo1dJWVh32uuETPVEtGigN07tkttEqPv+uR2SE/mbQcG7ATL28aI9H0 crossorigin=anonymous>
+<link rel=stylesheet href=https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css>
+<link rel=stylesheet href=https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css integrity=sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u crossorigin=anonymous>
+<link rel=stylesheet href=http://localhost/css/main.css><link rel=stylesheet href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
+<link rel=stylesheet href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800"><link rel=stylesheet href=http://localhost/css/syntax.css><style>.navbar-custom .avatar-container .avatar-img-border{border-radius:0}.navbar-custom .avatar-container .avatar-img{border-radius:0}</style>
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css integrity="sha256-sCl5PUOGMLfFYctzDW3MtRib0ctyUvI9Qsmq2wXOeBY=" crossorigin=anonymous>
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css integrity="sha256-BFeI1V+Vh1Rk37wswuOYn5lsTcaU96hGaI7OUVCLjPc=" crossorigin=anonymous>
+<div class=pswp tabindex=-1 role=dialog aria-hidden=true>
+<div class=pswp__bg></div>
+<div class=pswp__scroll-wrap>
+<div class=pswp__container>
+<div class=pswp__item></div>
+<div class=pswp__item></div>
+<div class=pswp__item></div>
+</div>
+<div class="pswp__ui pswp__ui--hidden">
+<div class=pswp__top-bar>
+<div class=pswp__counter></div>
+<button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+<button class="pswp__button pswp__button--share" title=Share></button>
+<button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+<button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+<div class=pswp__preloader>
+<div class=pswp__preloader__icn>
+<div class=pswp__preloader__cut>
+<div class=pswp__preloader__donut></div>
+</div>
+</div>
+</div>
+</div>
+<div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+<div class=pswp__share-tooltip></div>
+</div>
+<button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+</button>
+<button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+</button>
+<div class=pswp__caption>
+<div class=pswp__caption__center></div>
+</div>
+</div>
+</div>
+</div>
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+<div class=container-fluid>
+<div class=navbar-header>
+<button type=button class=navbar-toggle data-toggle=collapse data-target=#main-navbar>
+<span class=sr-only>Toggle navigation</span>
+<span class=icon-bar></span>
+<span class=icon-bar></span>
+<span class=icon-bar></span>
+</button>
+<a class=navbar-brand href=http://localhost/>LinuxBoot</a>
+</div>
+<div class="collapse navbar-collapse" id=main-navbar>
+<ul class="nav navbar-nav navbar-right">
+<li>
+<a title=FAQ href=/page/faq/>FAQ</a>
+</li>
+<li>
+<a title="About Us" href=/page/about/>About Us</a>
+</li>
+<li>
+<a title=Artwork href=/page/artwork/>Artwork</a>
+</li>
+</ul>
+</div>
+<div class=avatar-container>
+<div class=avatar-img-border>
+<a title=LinuxBoot href=http://localhost/>
+<img class=avatar-img src=http://localhost/images/logo.png alt=LinuxBoot>
+</a>
+</div>
+</div>
+</div>
+</nav>
+<header class=header-section>
+<div class="intro-header no-img">
+<div class=container>
+<div class=row>
+<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+<div class=page-heading>
+<h1>LinuxBoot</h1>
+<hr class=small>
+<span class=page-subheading>Let Linux do it</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</header>
+<div role=main class=container>
+<div class=row>
+<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+<div class=well>
+<h1 id=linux-as-firmware>Linux as Firmware</h1>
+<p><strong>Tired of reinventing the wheel by implementing drivers for firmware again and again?</strong>
+<strong>Not with LinuxBoot!</strong></p>
+<p><img src=images/linuxboot_info.png alt></p>
+<h3 id=what>What?</h3>
+<p>LinuxBoot is a firmware for modern servers that replaces specific firmware
+functionality like the UEFI DXE phase with a Linux kernel and runtime.</p>
+<h3 id=why>Why?</h3>
+<ul>
+<li>Improves boot reliability by replacing lightly-tested firmware drivers with
+hardened Linux drivers.</li>
+<li>Improves boot time by removing unnecessary code. Typically makes boot 20
+times faster.</li>
+<li>Allows customization of the initrd runtime to support site-specific needs
+(both device drivers as well as custom executables).</li>
+<li>Proven approach for almost 20 years in military, consumer electronics, and
+supercomputing systems &ndash; wherever reliability and performance are
+paramount.</li>
+</ul>
+<h3 id=getting-started>Getting Started</h3>
+<pre tabindex=0><code>git clone https://github.com/linuxboot/linuxboot
+cd linuxboot
+make \
+	     BOARD=qemu \
+	     KERNEL=../path/to/bzImage \
+	     INITRD=../path/to/initrd.cpio.xz \
+	     config
+make
+</code></pre><p>The kernel must be built with <code>CONFIG_EFI_BDS</code>. Follow further instructions on
+our <a href=https://github.com/linuxboot/linuxboot>GitHub</a>.</p>
+<h3 id=linuxboot-book>LinuxBoot Book</h3>
+<p>The official documentation for LinuxBoot is the <a href=https://github.com/linuxboot/book>LinuxBoot Book</a>,
+where you can find information on how LinuxBoot works, how to build the various
+flavours (e.g. coreboot/LinuxBoot or UEFI PEI/LinuxBoot), the
+<a href=https://github.com/u-root/u-root>u-root</a> ramfs builder, etc.</p>
+<h3 id=fortnightly-meeting>Fortnightly meeting</h3>
+<p>We meet every two weeks to discuss about the latest news, upcoming talks and events, and so on. The meeting is open and everyone is welcome!</p>
+<p>Meeting notes: <a href="https://docs.google.com/document/d/1ODqACyXvtRhTi8YHxg8Z386eQRuEEXu7YcQWQStCrvA/edit#heading=h.kogal719mll2">https://docs.google.com/document/d/1ODqACyXvtRhTi8YHxg8Z386eQRuEEXu7YcQWQStCrvA/edit#heading=h.kogal719mll2</a></p>
+<p>The LinuxBoot calendar is displayed below. Add it to Google calendar using the &ldquo;+&rdquo; button, or import it to your favorite calendar app using iCalendar: <a href=https://calendar.google.com/calendar/ical/b7msajvido3i4vhbt6d98rhcso%40group.calendar.google.com/public/basic.ics>https://calendar.google.com/calendar/ical/b7msajvido3i4vhbt6d98rhcso%40group.calendar.google.com/public/basic.ics</a></p>
+<h3 id=contact>Contact?</h3>
+<ul>
+<li><a href=https://groups.google.com/forum/#!forum/linuxboot>Mailing list</a></li>
+<li><a href=https://osfw.slack.com/messages/linuxboot>Slack</a> (Join
+<a href=https://slack.osfw.dev>here</a>)</li>
+<li><a href=https://twitter.com/LinuxBootOrg>Twitter</a></li>
+</ul>
+<h3 id=in-the-news>In The News</h3>
+<ul>
+<li><a href=https://lwn.net/Articles/748586/>LWN.net: LinuxBoot: Linux as firmware</a> (2018-03-08)</li>
+<li><a href=https://www.linuxjournal.com/content/foss-project-spotlight-linuxboot/>Linux Journal: FOSS Project Spotlight: LinuxBoot</a> (2018-02-15)</li>
+<li><a href=https://www.linuxfoundation.org/blog/system-startup-gets-a-boost-with-new-linuxboot-project/>Linux Foundation: System Statup gets a Boost with new LinuxBoot project</a> (2018-01-25)</li>
+<li><a href=https://code.fb.com/data-center-engineering/f16-minipack/>Facebook&rsquo;s LinuxBoot-powered F-16 high-performance fabric network</a> [2019-03-14]</li>
+</ul>
+<h3 id=talks>Talks</h3>
+<ul>
+<li><a href=https://trmm.net/LinuxBoot_34c3>Trammell Hudson&rsquo;s LinuxBoot talk at 34c3</a> (2017-12-29)</li>
+<li>Ron Minnich&rsquo;s talk &ldquo;Replace your exploit-ridden firmware with a Linux kernel&rdquo;: <a href="https://www.youtube.com/watch?v=iffTJ1vPCSo">video</a> / <a href=https://schd.ws/hosted_files/osseu17/84/Replace%20UEFI%20with%20Linux.pdf>slides</a> (2017-10-27)</li>
+<li><a href=https://trmm.net/Heads_33c3>Trammell Hudson&rsquo;s Heads talk at 33c3</a> (2016-12-27)</li>
+<li><a href=https://osfc.io/talks/open-source-firmware-facebook>Open Source Firmware @ Facebook</a> by <a href=https://github.com/dhendrix>David Hendricks</a> and <a href=https://github.com/insomniacslk>Andrea Barberio</a> at <a href=https://osfc.io>OSFC Open Source Firmware Conference</a> (<a href=https://insomniac.slackware.it/static/2018_osfc_linuxboot_at_facebook.pdf>slides</a>) (<a href="https://www.youtube.com/watch?v=eKVSBESoKUc">video</a>) (2018-09-1)</li>
+<li><a href=https://2018ocpregionalsummit.sched.com/event/F8ax/turning-linux-engineers-into-firmware-engineers>Turning Linux Engineers into Firmware Engineers</a> by <a href=https://github.com/dhendrix>David Hendricks</a> and <a href=https://github.com/insomniacslk>Andrea Barberio</a> at <a href=https://www.opencompute.org/summit/regional-summit-2018>OCP Regional Summit</a> (<a href=https://insomniac.slackware.it/static/2018_ocp_regional_summit_linuxboot_at_facebook.pdf>slides</a>) (<a href="https://www.youtube.com/watch?v=i84df1z6mdI">video</a>) (2018-10-02)</li>
+<li><a href=https://www.usenix.org/conference/lisa18/presentation/barberio>Make Your System Firmware Faster, More Flexible and Reliable with LinuxBoot</a> by <a href=https://github.com/dhendrix>David Hendricks</a> and <a href=https://github.com/insomniacslk>Andrea Barberio</a> at <a href=https://www.usenix.org/conference/lisa18>LISA 2018</a> (<a href=https://insomniac.slackware.it/static/2018_lisa_linuxboot_at_facebook.pdf>slides</a>) (2018-10-31)</li>
+<li><a href="https://www.youtube.com/watch?v=xfqKm190dbU">Open Source Firmware - A love story</a> by <a href=https://cybersecurity.9elements.com>Philipp Deppenwiese</a> at <a href=https://events.ccc.de/congress/2018>35c3</a>
+(<a href=https://cdn.media.ccc.de/congress/2018/slides-h264-hd/35c3-9778-deu-eng-Open_Source_Firmware_hd-slides.mp4>slides</a>) (2018-12-27)</li>
+<li><a href=https://fosdem.org/2019/schedule/event/open_source_firmware_at_facebook/>Open Source Firmware at Facebook</a> by <a href=https://github.com/dhendrix>David Hendricks</a> and <a href=https://github.com/insomniacslk>Andrea Barberio</a> at <a href=https://fosdem.org/2019/>FOSDEM 2019</a> (<a href=https://video.fosdem.org/2019/K.4.401/open_source_firmware_at_facebook.mp4>video</a>) (<a href=https://insomniac.slackware.it/static/2019_fosdem_linuxboot_at_facebook.pdf>slides</a>) (2019-02-03)</li>
+</ul>
+<h3 id=repos--instructions>Repos & Instructions</h3>
+<ul>
+<li><a href=https://github.com/osresearch/heads>Heads tree for building LinuxBoot ROMs</a></li>
+<li><a href=https://trmm.net/NERF>Installation instructions for the Dell R630</a></li>
+<li><a href=https://github.com/ggiamarchi/nerf-winterfell>Instructions for OCP Winterfell nodes</a></li>
+<li>More detailed instructions and build tools are forthcoming for OCP nodes as well as others.</li>
+</ul>
+</div>
+<div class=posts-list>
+</div>
+</div>
+</div>
+</div>
+<footer>
+<div class=container>
+<div class=row>
+<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+<ul class="list-inline text-center footer-links">
+<li>
+<a href=mailto:linuxboot@googlegroups.com title="Email me">
+<span class="fa-stack fa-lg">
+<i class="fa fa-circle fa-stack-2x"></i>
+<i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+</span>
+</a>
+</li>
+<li>
+<a href=https://github.com/linuxboot title=GitHub>
+<span class="fa-stack fa-lg">
+<i class="fa fa-circle fa-stack-2x"></i>
+<i class="fa fa-github fa-stack-1x fa-inverse"></i>
+</span>
+</a>
+</li>
+</ul>
+<p class="credits copyright text-muted">
+<a href=https://www.linuxboot.org>The LinuxBoot project</a>
+&nbsp;&bull;&nbsp;
+0001
+&nbsp;&bull;&nbsp;
+<a href=http://localhost/>LinuxBoot</a>
+</p>
+<p class="credits theme-by text-muted">
+<a href=http://gohugo.io>Hugo v0.92.2</a> powered &nbsp;&bull;&nbsp; Theme by <a href=http://deanattali.com/beautiful-jekyll/>Beautiful Jekyll</a> adapted to <a href=https://github.com/halogenica/beautifulhugo>Beautiful Hugo</a>
+</p>
+</div>
+</div>
+</div>
+</footer>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.js integrity=sha384-/y1Nn9+QQAipbNQWU65krzJralCnuOasHncUFXGkdwntGeSvQicrYkiUBwsgUqc1 crossorigin=anonymous></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/contrib/auto-render.min.js integrity=sha384-dq1/gEHSxPZQ7DdrM82ID4YVol9BYyU7GbWlIwnwyPzotpoc57wDw/guX8EaYGPx crossorigin=anonymous></script>
+<script src=https://code.jquery.com/jquery-1.12.4.min.js integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin=anonymous></script>
+<script src=https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js integrity=sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa crossorigin=anonymous></script>
+<script src=http://localhost/js/main.js></script><script>renderMathInElement(document.body)</script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js integrity="sha256-UplRCs9v4KXVJvVY+p+RSo5Q4ilAUXh7kpjyIP5odyc=" crossorigin=anonymous></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js integrity="sha256-PWHOlUzc96pMc8ThwRIXPn8yH4NOLu42RQ0b9SpnpFk=" crossorigin=anonymous></script>
+<script src=http://localhost/js/load-photoswipe.js></script>
+</body>
+</html>
