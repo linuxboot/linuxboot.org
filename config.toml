@@ -7,6 +7,11 @@ pygmentsCodeFences = true
 pygmentsUseClasses = true
 pygmentsUseClassic = true
 
+# for the calendar iframe, we need raw HTML, which is omitted since Hugo 0.60.0
+# unless `unsafe = true` is set. See https://gohugo.io/news/0.60.0-relnotes/
+[markup.goldmark.renderer]
+  unsafe = true
+
 [Params]
   useChroma = true
 	subtitle = "Let Linux do it"
