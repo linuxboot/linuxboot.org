@@ -41,7 +41,7 @@ our [GitHub](https://github.com/linuxboot/linuxboot).
 
 ### LinuxBoot Book
 
-The official documentation for LinuxBoot is the [LinuxBoot Book](https://github.com/linuxboot/book),
+The official documentation for LinuxBoot is the [LinuxBoot Book](https://book.linuxboot.org),
 where you can find information on how LinuxBoot works, how to build the various
 flavours (e.g. coreboot/LinuxBoot or UEFI PEI/LinuxBoot), the
 [u-root](https://github.com/u-root/u-root) ramfs builder, etc.
