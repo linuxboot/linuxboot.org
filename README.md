@@ -4,6 +4,17 @@
 
 Install [Hugo](https://gohugo.io/). Run `hugo -h` for help.
 
+## Maintenance
+
+This website is made with the
+[beautifulhugo theme](https://github.com/halogenica/beautifulhugo).
+Its templates resides in [`themes/`](themes/) as a git submodule.
+Fetch a recent version to keep parity with recent changes in Hugo.
+
+**Note**:
+As of now, Hugo has no stable release yet.
+It may simply break (again) at any given moment.
+
 ## Editing
 
 Run Hugo:
