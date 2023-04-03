@@ -74,16 +74,15 @@
 	margin-left: -150px;
 	margin-top: -150px;
 	min-height: 0;
-	height: 30%
+	height: 30%;
 	z-index: 9999;
-  padding: 0.5rem;
-  border: 1px solid rgba(0,0,0,0.25);
-  background-color: rgba(220,220,220,0.9);
-  height: 10em;
-
+	padding: 0.5rem;
+ 	border: 1px solid rgba(0,0,0,0.25);
+ 	background-color: rgba(220,220,220,0.9);
+ 	height: 10em;
 }
 
-form--loading:before {
+.form--loading:before {
 	content: '';
 }
 
