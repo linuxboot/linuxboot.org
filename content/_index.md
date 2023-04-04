@@ -10,6 +10,11 @@
 LinuxBoot is a firmware for modern servers that replaces specific firmware
 functionality like the UEFI DXE phase with a Linux kernel and runtime.
 
+It started as *NERF* in January 2017 at Google.
+
+LinuxBoot is a Linux Foundation project and as such has a [technical charter](
+../../docs/Technical_Charter_01_25_18.pdf).
+
 ### Why?
 
 *   Improves boot reliability by replacing lightly-tested firmware drivers with
@@ -60,7 +65,7 @@ The LinuxBoot calendar is displayed below. Add it to Google calendar using the "
 <iframe src="https://calendar.google.com/calendar/embed?src=b7msajvido3i4vhbt6d98rhcso%40group.calendar.google.com" style="border: 0; width: 100%; height: 600px; border: 0" scrolling="no"></iframe>
 -->
 
-### Contact?
+### Contact
 
 * [Mailing list](https://groups.google.com/forum/#!forum/linuxboot)
 * [Slack](https://osfw.slack.com/messages/linuxboot) (Join
@@ -86,10 +91,25 @@ The LinuxBoot calendar is displayed below. Add it to Google calendar using the "
 ([slides](https://cdn.media.ccc.de/congress/2018/slides-h264-hd/35c3-9778-deu-eng-Open_Source_Firmware_hd-slides.mp4)) (2018-12-27)
 * [Open Source Firmware at Facebook](https://fosdem.org/2019/schedule/event/open_source_firmware_at_facebook/)  by [David Hendricks](https://github.com/dhendrix) and [Andrea Barberio](https://github.com/insomniacslk) at [FOSDEM 2019](https://fosdem.org/2019/) ([video](https://video.fosdem.org/2019/K.4.401/open_source_firmware_at_facebook.mp4)) ([slides](https://insomniac.slackware.it/static/2019_fosdem_linuxboot_at_facebook.pdf )) (2019-02-03)
 
-
 ### Repos & Instructions
 
 * [Heads tree for building LinuxBoot ROMs](https://github.com/osresearch/heads)
 * [Installation instructions for the Dell R630](https://trmm.net/NERF)
 * [Instructions for OCP Winterfell nodes](https://github.com/ggiamarchi/nerf-winterfell)
 * More detailed instructions and build tools are forthcoming for OCP nodes as well as others.
+
+The following are just a subset of the organizations and people ivolved.
+
+### Organizations Involved
+
+* [Google](http://www.google.com)
+* [Facebook](http://www.facebook.com)
+* [Horizon Computing](http://www.horizon-computing.com)
+* [Two Sigma](http://www.twosigma.com)
+* [9elements Cyber Security](http://www.9elements.com/cyber-security)
+
+### Technical Steering Committee
+
+* Ron Minnich (Google)
+* Jean-Marie Verdun (Horizon Computing)
+* Philipp Deppenwiese (9elements Cyber Security)

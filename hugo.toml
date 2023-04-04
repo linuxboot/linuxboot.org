@@ -35,11 +35,6 @@ pygmentsUseClassic = true
 	weight = 1
 
 [[menu.main]]
-	name = "About Us"
-	url = "page/about/"
-	weight = 2
-
-[[menu.main]]
 	name = "Artwork"
 	url = "page/artwork/"
-	weight = 3
+	weight = 2
