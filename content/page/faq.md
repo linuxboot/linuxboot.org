@@ -1,4 +1,4 @@
-![Installing LinuxBoot on an Intel S2600 mainboard](images/s2600-flash.jpg)
+![Installing LinuxBoot on an Intel S2600 mainboard](../../images/s2600-flash.jpg)
 
 ### Additional Reasons for LinuxBoot
 
