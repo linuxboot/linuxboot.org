@@ -49,13 +49,16 @@ flavours (e.g. coreboot/LinuxBoot or UEFI PEI/LinuxBoot), the
 
 ### Fortnightly meeting
 
-We meet every two weeks to discuss about the latest news, upcoming talks and events, and so on. The meeting is open and everyone is welcome!
+We had open meetings every two weeks welcoming everyone to discuss about the latest news, upcoming talks and events, and so on.
 
-Meeting notes: https://docs.google.com/document/d/1ODqACyXvtRhTi8YHxg8Z386eQRuEEXu7YcQWQStCrvA/edit#heading=h.kogal719mll2
+The [meeting notes](https://docs.google.com/document/d/1ODqACyXvtRhTi8YHxg8Z386eQRuEEXu7YcQWQStCrvA/edit#heading=h.kogal719mll2) are kept in a Google doc.
 
-The LinuxBoot calendar is displayed below. Add it to Google calendar using the "+" button, or import it to your favorite calendar app using iCalendar: https://calendar.google.com/calendar/ical/b7msajvido3i4vhbt6d98rhcso%40group.calendar.google.com/public/basic.ics
+<!-- hidden until meetings are revived -->
+<!--
+The LinuxBoot calendar is displayed below. Add it to Google calendar using the "+" button, or import [the ICS file](https://calendar.google.com/calendar/ical/b7msajvido3i4vhbt6d98rhcso%40group.calendar.google.com/public/basic.ics) to your favorite calendar app. 
 
-<iframe src="https://calendar.google.com/calendar/embed?src=b7msajvido3i4vhbt6d98rhcso%40group.calendar.google.com" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://calendar.google.com/calendar/embed?src=b7msajvido3i4vhbt6d98rhcso%40group.calendar.google.com" style="border: 0; width: 100%; height: 600px; border: 0" scrolling="no"></iframe>
+-->
 
 ### Contact?
 
