@@ -28,6 +28,7 @@ pygmentsUseClassic = true
 	website = "https://www.linuxboot.org"
 	email = "linuxboot@googlegroups.com"
 	github = "linuxboot"
+	twitter = "LinuxBootOrg"
 
 [[menu.main]]
 	name = "FAQ"
