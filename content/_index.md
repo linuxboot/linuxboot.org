@@ -29,7 +29,7 @@ LinuxBoot is a Linux Foundation project and as such has a [technical charter](
 
 ### Getting Started
 
-```
+```sh
 git clone https://github.com/linuxboot/linuxboot
 cd linuxboot
 make \
