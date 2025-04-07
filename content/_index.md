@@ -1,11 +1,4 @@
-# Linux as Firmware
-
-**Tired of reinventing the wheel by implementing drivers for firmware again and again?**</br>
-**Not with LinuxBoot!**
-
-### What?
-
-LinuxBoot is the concept of using a Linux kernel and runtime as a bootloader.
+LinuxBoot is the concept of using a Linux kernel and initramfs as a bootloader.
 
 The [`linuxboot`](https://github.com/linuxboot/linuxboot) repository contains a
 build system implementing LinuxBoot primarily targeting servers and PCs, which
@@ -13,7 +6,7 @@ started as [*NERF*](https://trmm.net/NERF) in January 2017 at Google.
 
 ![](images/linuxboot_info.png)
 
-### Why?
+## Why?
 
 *   Improves boot reliability by replacing lightly-tested firmware drivers with
     hardened Linux drivers.
@@ -25,7 +18,7 @@ started as [*NERF*](https://trmm.net/NERF) in January 2017 at Google.
     supercomputing systems -- wherever reliability and performance are
     paramount.
 
-### LinuxBoot Book
+## LinuxBoot Book
 
 The official documentation for LinuxBoot is the [LinuxBoot Book](https://book.linuxboot.org),
 where you can find information on how LinuxBoot works, how to build the various

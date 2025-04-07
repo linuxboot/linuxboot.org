@@ -14,7 +14,7 @@ pygmentsUseClassic = true
 
 [Params]
   useChroma = true
-	subtitle = "Let Linux do it"
+	subtitle = "Linux as a bootloader"
 	logo = "images/logo.png"
 	favicon = "images/favicon.ico"
 	dateFormat = "January 2, 2006"
