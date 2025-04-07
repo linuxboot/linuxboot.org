@@ -37,19 +37,6 @@ flavours (e.g. coreboot/LinuxBoot or UEFI PEI/LinuxBoot), the
 LinuxBoot is a Linux Foundation project and as such has a [technical charter](
 ../../docs/Technical_Charter_01_25_18.pdf).
 
-### Fortnightly meeting
-
-We had open meetings every two weeks welcoming everyone to discuss about the latest news, upcoming talks and events, and so on.
-
-The [meeting notes](https://docs.google.com/document/d/1ODqACyXvtRhTi8YHxg8Z386eQRuEEXu7YcQWQStCrvA/edit#heading=h.kogal719mll2) are kept in a Google doc.
-
-<!-- hidden until meetings are revived -->
-<!--
-The LinuxBoot calendar is displayed below. Add it to Google calendar using the "+" button, or import [the ICS file](https://calendar.google.com/calendar/ical/b7msajvido3i4vhbt6d98rhcso%40group.calendar.google.com/public/basic.ics) to your favorite calendar app. 
-
-<iframe src="https://calendar.google.com/calendar/embed?src=b7msajvido3i4vhbt6d98rhcso%40group.calendar.google.com" style="border: 0; width: 100%; height: 600px; border: 0" scrolling="no"></iframe>
--->
-
 ### Contact
 
 * [Mailing list](https://groups.google.com/forum/#!forum/linuxboot)
