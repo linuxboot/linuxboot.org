@@ -153,6 +153,10 @@ figure:not(.dark) img, img.white {
   }
 }
 
+#cusdis_thread {
+  margin-top: 30px;
+}
+
 /* --- Navbar --- */
 
 .navbar-custom {
@@ -374,6 +378,20 @@ footer .copyright {
 footer .theme-by {
   text-align: center;
   margin: 10px 0 0;
+}
+
+footer div.disclaimer {
+  padding: 15px 15px 15px 10px;
+  margin: 20px 20px 20px 5px;
+  border: 1px solid #eee;
+  border-left-width: 10px;
+  border-right-width: 10px;
+  border-radius: 5px 3px 3px 5px;
+  background-color: #fdf5d4;
+  border-left-color: #f1c40f;
+  border-right-color: #f1c40f;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-align: center;
 }
 
 @media only screen and (min-width: 768px) {
@@ -945,3 +963,34 @@ h4.see-also {
     overflow-x: auto;
     overflow-y: hidden;
   }
+
+
+  .highlight {
+    box-sizing: border-box;
+    padding: 10px;
+    position: relative;
+  }
+  
+  .copyCodeButton {
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    color: black;
+    cursor: pointer;
+    display: none;
+    font-size: 14px;
+    padding: 5px 10px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    transition: background-color 0.3s ease;
+    z-index: 10;
+  }
+  
+  .highlight:hover .copyCodeButton {
+    display: block;
+  }
+  
+  .copyCodeButton:hover {
+    background-color: #e0e0e0;
+  }
+  

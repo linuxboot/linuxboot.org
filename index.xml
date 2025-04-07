@@ -1,6 +1,64 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>LinuxBoot</title><link>https://linuxboot.org/</link><description>Recent content on LinuxBoot</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>linuxboot@googlegroups.com (The LinuxBoot project)</managingEditor><webMaster>linuxboot@googlegroups.com (The LinuxBoot project)</webMaster><atom:link href="https://linuxboot.org/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://linuxboot.org/page/artwork/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>linuxboot@googlegroups.com (The LinuxBoot project)</author><guid>https://linuxboot.org/page/artwork/</guid><description>Artwork Linux logo black
-Linux logo white
-White SVG Logo Black SVG Logo Author The logo creator is Susanne Nähler from 9elements.
-License Every artwork has to be used under the conditions of the Creative Commons Attribution-NoDerivatives 4.0 International license. There is a short version which explains the license easily.
-Full License Creative Commons Corporation (“Creative Commons”) is not a law firm and does not provide legal services or legal advice.</description></item><item><title/><link>https://linuxboot.org/page/faq/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>linuxboot@googlegroups.com (The LinuxBoot project)</author><guid>https://linuxboot.org/page/faq/</guid><description>Additional Reasons for LinuxBoot Just in case the front page did not convince you&amp;hellip;
-You can use any filesystem that Linux supports, not just FAT. You can implement boot policies using normal Linux applications, e.g. shell scripts or binaries, rather than manipulating opaque NVRAM variables. You can run Linux applications straight from the ROM. You can avoid legacy partitions entirely and use LVM for flexible volume management. You can build it yourself and verify that the reproducible build matches what others have built to ensure that the firmware is clean.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>LinuxBoot</title><link>https://linuxboot.org/</link><description>Recent content on LinuxBoot</description><generator>Hugo</generator><language>en-us</language><managingEditor>linuxboot@googlegroups.com (The LinuxBoot project)</managingEditor><webMaster>linuxboot@googlegroups.com (The LinuxBoot project)</webMaster><atom:link href="https://linuxboot.org/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://linuxboot.org/page/artwork/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>linuxboot@googlegroups.com (The LinuxBoot project)</author><guid>https://linuxboot.org/page/artwork/</guid><description>&lt;h1 id="artwork">Artwork&lt;/h1>
+
+&lt;link rel="stylesheet" href="https://linuxboot.org/css/hugo-easy-gallery.css" />
+
+&lt;div class="gallery caption-position-bottom caption-effect-slide hover-effect-zoom hover-transition" itemscope itemtype="http://schema.org/ImageGallery">
+				&lt;div class="box">
+				 &lt;figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				 &lt;div class="img" style="background-image: url('https://linuxboot.org//images/artwork/linux_logo_black.png');" >
+				 &lt;img itemprop="thumbnail" src="https://linuxboot.org//images/artwork/linux_logo_black.png" alt="Linux logo black" />
+				 &lt;/div>
+			 &lt;figcaption>
+		 &lt;p>Linux logo black&lt;/p>
+			 &lt;/figcaption>
+				 &lt;a href="https://linuxboot.org//images/artwork/linux_logo_black.png" itemprop="contentUrl">&lt;/a>
+				 &lt;/figure>
+				&lt;/div>
+				&lt;div class="box">
+				 &lt;figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				 &lt;div class="img" style="background-image: url('https://linuxboot.org//images/artwork/linux_logo_white.png');" >
+				 &lt;img itemprop="thumbnail" src="https://linuxboot.org//images/artwork/linux_logo_white.png" alt="Linux logo white" />
+				 &lt;/div>
+			 &lt;figcaption>
+		 &lt;p>Linux logo white&lt;/p>
+			 &lt;/figcaption>
+				 &lt;a href="https://linuxboot.org//images/artwork/linux_logo_white.png" itemprop="contentUrl">&lt;/a>
+				 &lt;/figure>
+				&lt;/div>
+&lt;/div>
+
+&lt;ul>
+&lt;li>&lt;a href="https://linuxboot.org/images/artwork/linux_logo_white.svg">White SVG Logo&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://linuxboot.org/images/artwork/linux_logo_black.svg">Black SVG Logo&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="author">Author&lt;/h2>
+&lt;p>The logo creator is &lt;a href="https://dribbble.com/LittleSue">Susanne Nähler&lt;/a> from &lt;a href="https://9elements.com/">9elements&lt;/a>.&lt;/p>
+&lt;h2 id="license">License&lt;/h2>
+&lt;p>Every artwork has to be used under the conditions of the Creative Commons Attribution-NoDerivatives 4.0 International license.
+There is a short version which explains the &lt;a href="https://creativecommons.org/licenses/by-nd/4.0/">license&lt;/a> easily.&lt;/p>
+&lt;h3 id="full-license">Full License&lt;/h3>
+&lt;p>Creative Commons Corporation (“Creative Commons”) is not a law firm and does not provide legal services or legal advice. Distribution of Creative Commons public licenses does not create a lawyer-client or other relationship. Creative Commons makes its licenses and related information available on an “as-is” basis. Creative Commons gives no warranties regarding its licenses, any material licensed under their terms and conditions, or any related information. Creative Commons disclaims all liability for damages resulting from their use to the fullest extent possible.&lt;/p></description></item><item><title/><link>https://linuxboot.org/page/faq/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>linuxboot@googlegroups.com (The LinuxBoot project)</author><guid>https://linuxboot.org/page/faq/</guid><description>&lt;p>&lt;img src="../../images/s2600-flash.jpg" alt="Installing LinuxBoot on an Intel S2600 mainboard">&lt;/p>
+&lt;h3 id="additional-reasons-for-linuxboot">Additional Reasons for LinuxBoot&lt;/h3>
+&lt;p>Just in case the front page did not convince you&amp;hellip;&lt;/p>
+&lt;ul>
+&lt;li>You can use any filesystem that Linux supports, not just FAT.&lt;/li>
+&lt;li>You can implement boot policies using normal Linux applications, e.g.
+shell scripts or binaries, rather than manipulating opaque NVRAM variables.&lt;/li>
+&lt;li>You can run Linux applications straight from the ROM.&lt;/li>
+&lt;li>You can avoid legacy partitions entirely and use LVM for flexible volume
+management.&lt;/li>
+&lt;li>You can build it yourself and verify that the reproducible build matches what
+others have built to ensure that the firmware is clean.&lt;/li>
+&lt;li>You can have the firmware attest to you via TOTP that it hasn&amp;rsquo;t been changed.&lt;/li>
+&lt;li>You can have a fully encrypted disk, with secrets sealed in the TPM and only
+unsealed if the firmware is unmodified.&lt;/li>
+&lt;li>You can include device drivers for things that UEFI doesn&amp;rsquo;t support.&lt;/li>
+&lt;li>You can use external hardware tokens like a Yubikey to sign the OS install
+and have the firmware validate the GPG signature.&lt;/li>
+&lt;/ul>
+&lt;h3 id="linuxboot-nerf-heads-whats-what">LinuxBoot, NERF, HEADS? What&amp;rsquo;s What?&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;em>LinuxBoot&lt;/em> is the project that replaces specific firmware functionality
+with a Linux kernel. LinuxBoot is agnostic to what initramfs is used with
+the kernel.&lt;/p></description></item></channel></rss>
