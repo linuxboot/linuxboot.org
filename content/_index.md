@@ -92,9 +92,3 @@ The following are just a subset of the organizations and people ivolved.
 * [Horizon Computing](http://www.horizon-computing.com)
 * [Two Sigma](http://www.twosigma.com)
 * [9elements Cyber Security](http://www.9elements.com/cyber-security)
-
-### Technical Steering Committee
-
-* Ron Minnich (Google)
-* Jean-Marie Verdun (Horizon Computing)
-* Philipp Deppenwiese (9elements Cyber Security)
