@@ -3,14 +3,15 @@
 **Tired of reinventing the wheel by implementing drivers for firmware again and again?**</br>
 **Not with LinuxBoot!**
 
-![](images/linuxboot_info.png)
-
 ### What?
 
-LinuxBoot is a firmware for modern servers that replaces specific firmware
-functionality like the UEFI DXE phase with a Linux kernel and runtime.
+LinuxBoot is the concept of using a Linux kernel and runtime as a bootloader.
 
-It started as *NERF* in January 2017 at Google.
+The [`linuxboot`](https://github.com/linuxboot/linuxboot) repository contains a
+build system implementing LinuxBoot primarily targeting servers and PCs, which
+started as [*NERF*](https://trmm.net/NERF) in January 2017 at Google.
+
+![](images/linuxboot_info.png)
 
 LinuxBoot is a Linux Foundation project and as such has a [technical charter](
 ../../docs/Technical_Charter_01_25_18.pdf).
