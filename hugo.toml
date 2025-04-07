@@ -23,7 +23,7 @@ pygmentsUseClassic = true
 	comments = true
 	readingTime = true
 
-[Author]
+[Params.Author]
 	name = "The LinuxBoot project"
 	website = "https://www.linuxboot.org"
 	email = "linuxboot@googlegroups.com"
