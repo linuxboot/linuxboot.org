@@ -13,9 +13,6 @@ started as [*NERF*](https://trmm.net/NERF) in January 2017 at Google.
 
 ![](images/linuxboot_info.png)
 
-LinuxBoot is a Linux Foundation project and as such has a [technical charter](
-../../docs/Technical_Charter_01_25_18.pdf).
-
 ### Why?
 
 *   Improves boot reliability by replacing lightly-tested firmware drivers with
@@ -52,6 +49,10 @@ where you can find information on how LinuxBoot works, how to build the various
 flavours (e.g. coreboot/LinuxBoot or UEFI PEI/LinuxBoot), the
 [u-root](https://github.com/u-root/u-root) ramfs builder, etc.
 
+## Organization
+
+LinuxBoot is a Linux Foundation project and as such has a [technical charter](
+../../docs/Technical_Charter_01_25_18.pdf).
 
 ### Fortnightly meeting
 
