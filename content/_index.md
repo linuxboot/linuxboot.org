@@ -25,23 +25,6 @@ started as [*NERF*](https://trmm.net/NERF) in January 2017 at Google.
     supercomputing systems -- wherever reliability and performance are
     paramount.
 
-### Getting Started
-
-```sh
-git clone https://github.com/linuxboot/linuxboot
-cd linuxboot
-make \
-	     BOARD=qemu \
-	     KERNEL=../path/to/bzImage \
-	     INITRD=../path/to/initrd.cpio.xz \
-	     config
-make
-```
-
-The kernel must be built with `CONFIG_EFI_BDS`. Follow further instructions on
-our [GitHub](https://github.com/linuxboot/linuxboot).
-
-
 ### LinuxBoot Book
 
 The official documentation for LinuxBoot is the [LinuxBoot Book](https://book.linuxboot.org),
