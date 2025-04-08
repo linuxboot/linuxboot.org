@@ -30,6 +30,11 @@ flavours (e.g. coreboot/LinuxBoot or UEFI PEI/LinuxBoot), the
 LinuxBoot is a Linux Foundation project and as such has a [technical charter](
 ../../docs/Technical_Charter_01_25_18.pdf).
 
+### Technical Steering Committee
+
+* [Philip Molloy](https://gitlab.com/pamolloy)
+* [Daniel Maslowski](https://github.com/orangecms)
+
 ### Contact
 
 * [Mailing list](https://groups.google.com/forum/#!forum/linuxboot)
