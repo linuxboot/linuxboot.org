@@ -18,7 +18,7 @@ started as [*NERF*](https://trmm.net/NERF) in January 2017 at Google.
     supercomputing systems -- wherever reliability and performance are
     paramount.
 
-## LinuxBoot Book
+## LinuxBoot Book 📖
 
 The official documentation for LinuxBoot is the [LinuxBoot Book](https://book.linuxboot.org),
 where you can find information on how LinuxBoot works, how to build the various
