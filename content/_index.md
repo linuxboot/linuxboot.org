@@ -30,6 +30,20 @@ flavours (e.g. coreboot/LinuxBoot or UEFI PEI/LinuxBoot), the
 LinuxBoot is a Linux Foundation project and as such has a [technical charter](
 ../../docs/Technical_Charter_01_25_18.pdf).
 
+### Fortnightly meeting
+
+We are having open meetings every two weeks welcoming everyone to discuss the
+latest developments, news, upcoming talks and events, and so on.
+
+We keep track of what we discuss in the [meeting notes](https://hackmd.io/@CyReVolt/BkEFS0Pkee/edit).
+
+The LinuxBoot calendar is displayed below. Use the "Add to Google Calendar"
+button, or import
+[the ICS file](https://calendar.google.com/calendar/ical/0e3f928ce4fff4b3b656e8a816a5ff8c550c8a9ea3a13a03c08217ba38626f64%40group.calendar.google.com/public/basic.ics)
+to your favorite calendar app.
+
+<iframe src="https://calendar.google.com/calendar/embed?src=0e3f928ce4fff4b3b656e8a816a5ff8c550c8a9ea3a13a03c08217ba38626f64%40group.calendar.google.com&ctz=Europe%2FBerlin" style="border: 0; width: 100%; height: 600px; border: 0" scrolling="no"></iframe>
+
 ### Technical Steering Committee
 
 * [Philip Molloy](https://gitlab.com/pamolloy)
