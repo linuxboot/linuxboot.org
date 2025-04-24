@@ -34,6 +34,7 @@ LinuxBoot is a Linux Foundation project and as such has a [technical charter](
 
 * [Philip Molloy](https://gitlab.com/pamolloy)
 * [Daniel Maslowski](https://github.com/orangecms)
+* Ron Minnich (HPE)
 
 ### Contact
 
