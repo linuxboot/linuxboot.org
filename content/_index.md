@@ -42,7 +42,7 @@ button, or import
 [the ICS file](https://calendar.google.com/calendar/ical/0e3f928ce4fff4b3b656e8a816a5ff8c550c8a9ea3a13a03c08217ba38626f64%40group.calendar.google.com/public/basic.ics)
 to your favorite calendar app.
 
-<iframe src="https://calendar.google.com/calendar/embed?src=0e3f928ce4fff4b3b656e8a816a5ff8c550c8a9ea3a13a03c08217ba38626f64%40group.calendar.google.com&ctz=Europe%2FBerlin" style="border: 0; width: 100%; height: 600px; border: 0" scrolling="no"></iframe>
+<iframe src="https://calendar.google.com/calendar/embed?src=0e3f928ce4fff4b3b656e8a816a5ff8c550c8a9ea3a13a03c08217ba38626f64%40group.calendar.google.com" style="border: 0; width: 100%; height: 600px; border: 0" scrolling="no"></iframe>
 
 ### Technical Steering Committee
 
