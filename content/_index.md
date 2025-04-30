@@ -60,7 +60,7 @@ to your favorite calendar app.
 
 ### Organizations Involved
 
-The following are just a subset of the organizations and people ivolved.
+The following are just a subset of the organizations and people involved.
 
 * [Google](http://www.google.com)
 * [Facebook](http://www.facebook.com)
