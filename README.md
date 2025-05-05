@@ -2,7 +2,7 @@
 
 ## Requirements
 
-Install [Hugo](https://gohugo.io/). Run `hugo -h` for help.
+[Install Hugo](https://gohugo.io/installation/). Run `hugo -h` for help.
 
 ## Maintenance
 
@@ -18,6 +18,7 @@ It may simply break (again) at any given moment.
 ## Editing
 
 Run Hugo:
+
 ```sh
 hugo server
 ```
