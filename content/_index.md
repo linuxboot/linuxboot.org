@@ -28,6 +28,14 @@ As a bootloader environment, it offers
 *   Runtime customization to support site-specific needs, covering both device
     drivers as well as executables
 
+## Endorsements
+
+Linux is officially recognized as a bootloader, as stated by Greg Kroah-Hartman:
+
+<video width="100%" controls>
+  <source src="linux-os-hypvervisor-bootloader.mp4" type="video/mp4">
+</video>
+
 ## Organization
 
 LinuxBoot is a Linux Foundation project[^1]
