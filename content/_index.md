@@ -1,29 +1,40 @@
-LinuxBoot is the concept of using a Linux kernel and initramfs as a bootloader.
-
-The [`linuxboot`](https://github.com/linuxboot/linuxboot) repository contains a
-build system implementing LinuxBoot primarily targeting servers and PCs, which
-started as [*NERF*](https://trmm.net/NERF) in January 2017 at Google.
+LinuxBoot is the concept of [using a Linux kernel and initramfs as a
+bootloader](#benefits).
 
 ![](images/linuxboot_info.png)
 
-## Why?
+The official documentation for LinuxBoot is the [LinuxBoot Book 📖](https://book.linuxboot.org),
+where you can find information on how LinuxBoot works and implementing it with
+various approaches, such as based on coreboot or UEFI PEI.
 
-*   Improves boot reliability by replacing lightly-tested firmware drivers with
-    hardened Linux drivers.
-*   Improves boot time by removing unnecessary code. Typically makes boot 20
-    times faster.
-*   Allows customization of the initrd runtime to support site-specific needs
-    (both device drivers as well as custom executables).
-*   Proven approach for almost 20 years in military, consumer electronics, and
-    supercomputing systems -- wherever reliability and performance are
-    paramount.
+The [`linuxboot`](https://github.com/linuxboot/linuxboot) repository contains a
+reference build system implementing LinuxBoot primarily targeting servers and
+PCs, which started as [*NERF*](https://trmm.net/NERF) in January 2017 at Google.
 
-## LinuxBoot Book 📖
+We encourage [participation](#organization) to keep up to date and find a
+suitable solution for a specific use case.
 
-The official documentation for LinuxBoot is the [LinuxBoot Book](https://book.linuxboot.org),
-where you can find information on how LinuxBoot works, how to build the various
-flavours (e.g. coreboot/LinuxBoot or UEFI PEI/LinuxBoot), the
-[u-root](https://github.com/u-root/u-root) ramfs builder, etc.
+## Benefits
+
+Linux is the proven approach for almost 20 years in military, consumer
+electronics, and supercomputing systems - wherever reliability and performance
+are paramount.
+
+As a bootloader environment, it offers
+
+*   Steadfast reliability through bespoke and well-tested drivers
+*   Improved boot time by excluding unnecessary code, typically 20 times faster
+    than other solutions
+*   Runtime customization to support site-specific needs, covering both device
+    drivers as well as executables
+
+## Endorsements
+
+Linux is officially recognized as a bootloader, as stated by Greg Kroah-Hartman:
+
+<video width="100%" controls>
+  <source src="linux-os-hypvervisor-bootloader.mp4" type="video/mp4">
+</video>
 
 ## Organization
 
