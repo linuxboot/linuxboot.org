@@ -1,3 +1,7 @@
+---
+title: Home
+---
+
 LinuxBoot is the concept of using a Linux kernel and initramfs as a bootloader.
 
 The [`linuxboot`](https://github.com/linuxboot/linuxboot) repository contains a

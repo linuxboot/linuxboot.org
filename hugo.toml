@@ -14,6 +14,7 @@ pygmentsUseClassic = true
 
 [Params]
   useChroma = true
+  homeTitle = "LinuxBoot"
 	subtitle = "Linux as a bootloader"
 	logo = "images/logo.png"
 	favicon = "images/favicon.ico"
