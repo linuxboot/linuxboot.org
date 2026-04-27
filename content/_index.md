@@ -54,9 +54,11 @@ to your favorite calendar app.
 ### Contact
 
 * [Mailing list](https://groups.google.com/forum/#!forum/linuxboot)
-* [Slack](https://osfw.slack.com/messages/linuxboot) (Join
-  [here](https://slack.osfw.dev))
+* [Matrix (chat)](https://matrix.to/#/#osfw-linuxboot:matrix.org)
+* [Slack (chat)](https://osfw.slack.com/messages/linuxboot) (Join [here](https://slack.osfw.dev))
 * [Twitter](https://twitter.com/LinuxBootOrg)
+
+**NOTE**: Matrix and Slack are not bridged, but we are present in both.
 
 ### Organizations Involved
 
