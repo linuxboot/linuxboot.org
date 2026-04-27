@@ -7,7 +7,7 @@
 
 ## Author
 
-The logo creator is [Susanne Nähler](https://dribbble.com/LittleSue) from [9elements](https://9elements.com/).
+The logo creator is [Susanne Nähler](https://dribbble.com/Susanne_Naehler) from [9elements](https://9elements.com/).
 
 ## License
 
