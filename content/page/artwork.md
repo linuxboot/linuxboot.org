@@ -1,4 +1,6 @@
-# Artwork
+---
+title: Artwork
+---
 
 {{< gallery dir="/images/artwork" />}}
 

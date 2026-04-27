@@ -1,6 +1,10 @@
+---
+title: FAQ
+---
+
 ![Installing LinuxBoot on an Intel S2600 mainboard](../../images/s2600-flash.jpg)
 
-### Additional Reasons for LinuxBoot
+## Additional Reasons for LinuxBoot
 
 Just in case the front page did not convince you...
 
@@ -19,7 +23,7 @@ Just in case the front page did not convince you...
 * You can use external hardware tokens like a Yubikey to sign the OS install
   and have the firmware validate the GPG signature.
 
-### LinuxBoot, NERF, HEADS? What's What?
+## LinuxBoot, NERF, HEADS? What's What?
 
 *   *LinuxBoot* is the project that replaces specific firmware functionality
     with a Linux kernel. LinuxBoot is agnostic to what initramfs is used with
@@ -39,7 +43,7 @@ Initially, all three of these projects were called NERF. Because this would have
 only become more confusing, and because we do not want to be prescriptive of the
 initramfs, we named the Linux kernel in firmware *LinuxBoot*.
 
-### Will Anyone Ever Ship This?
+## Will Anyone Ever Ship This?
 
 [Horizon Computing](http://www.horizon-computing.com) plans to ship Open
 Compute Platform
@@ -55,7 +59,7 @@ The [Equus R1560](https://www.equuscs.com/servers/whitebox-open/r1560/)
 server board
 [supports LinuxBoot](https://www.equuscs.com/introducing-the-whitebox-open-r1560-servers/). 
 
-### Do I Need A coreboot-compatible Motherboard?
+## Do I Need A coreboot-compatible Motherboard?
 
 No, LinuxBoot is compatible with UEFI as well as coreboot. You can use
 LinuxBoot as a UEFI DXE or as a [coreboot
@@ -64,7 +68,7 @@ talk "Replace your exploit-ridden firmware with a Linux kernel":
 [video](https://www.youtube.com/watch?v=iffTJ1vPCSo) /
 [slides](https://schd.ws/hosted_files/osseu17/84/Replace%20UEFI%20with%20Linux.pdf)
 
-### What Does Booting Look Like?
+## What Does Booting Look Like?
 
 Our generally recommended approach is to use the Linux kernel in ROM to locate
 the actual kernel you want to boot, verify it is signed as you expect, and boot
@@ -80,26 +84,26 @@ smallest attack surface possible, so it should be compiled with the lowest
 common denominator of kernel features you need. That means it likely lacks
 features you may want to use in a Linux kernel.
 
-### Technical Details
+## Technical Details
 
-#### Platform init and memory training
+### Platform init and memory training
 
 As part of the hardware setup the so called "SoC" init is required. It consists
 of the platform bring-up and memory training. If the RAM training succeeds the
 Linux kernel can be loaded.
 
-#### x86 bootblock magic
+### x86 bootblock magic
 
 Under x86 architecture there is no cache as RAM support from the beginning of
 the platform init. Therefore, a register must be used as memory in order to
 initialize CAR.
 
-#### Cache As RAM
+### Cache As RAM
 
 In order to do RAM [training](https://www.youtube.com/watch?v=h-Lkkg03Erk) some
 sort of memory is needed. That is why the CPU caches are utilized.
 
-#### What about SMM, ACPI, PCI DT and GFX init?
+### What about SMM, ACPI, PCI DT and GFX init?
 
 Graphics init and PCI Device Tree enumeration are already part of the linux
 kernel. System Management Mode can be integrated as
