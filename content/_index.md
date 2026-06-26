@@ -3,10 +3,9 @@ title: Home
 ---
 
 LinuxBoot is the concept of using a Linux kernel and initramfs as a bootloader.
-
-The [`linuxboot`](https://github.com/linuxboot/linuxboot) repository contains a
-build system implementing LinuxBoot primarily targeting servers and PCs, which
-started as [*NERF*](https://trmm.net/NERF) in January 2017 at Google.
+It is an example of [multiple
+discovery](https://en.wikipedia.org/wiki/Multiple_discovery), having been
+implemented numerous times.
 
 ![](images/linuxboot_info.png)
 
@@ -24,10 +23,15 @@ started as [*NERF*](https://trmm.net/NERF) in January 2017 at Google.
 
 ## LinuxBoot Book 📖
 
-The official documentation for LinuxBoot is the [LinuxBoot Book](https://book.linuxboot.org),
-where you can find information on how LinuxBoot works, how to build the various
-flavours (e.g. coreboot/LinuxBoot or UEFI PEI/LinuxBoot), the
-[u-root](https://github.com/u-root/u-root) ramfs builder, etc.
+The official documentation for LinuxBoot is the [LinuxBoot
+Book](https://book.linuxboot.org), which documents LinuxBoot core concepts and
+the numerous implementations.
+
+## Build system
+
+The [`linuxboot`](https://github.com/linuxboot/linuxboot) repository contains a
+build system implementing LinuxBoot primarily targeting servers and PCs, which
+started as [*NERF*](https://trmm.net/NERF) in January 2017 at Google.
 
 ## Organization
 
