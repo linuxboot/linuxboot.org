@@ -63,7 +63,7 @@ to your favorite calendar app.
 
 * [Mailing list](https://groups.google.com/forum/#!forum/linuxboot)
 * [Matrix (chat)](https://matrix.to/#/#osfw-linuxboot:matrix.org)
-* [Slack (chat)](https://osfw.slack.com/messages/linuxboot) (Join [here](https://inviter.co/osff))
+* [Slack (chat)](https://osfw.slack.com/messages/linuxboot) (Join [here](https://slack.osfw.foundation/))
 * [Twitter](https://twitter.com/LinuxBootOrg)
 
 **NOTE**: Matrix and Slack are not bridged, but we are present in both.
